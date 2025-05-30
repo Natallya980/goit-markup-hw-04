@@ -104,9 +104,9 @@ body {
   position: absolute;
   width: 100%;
   left: 0;
-
   bottom: -1px;
   height: 4px;
+  color: #404bbf;
   background-color: #404bbf;
   border-radius: 2px;
 }
@@ -145,6 +145,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-title {
@@ -170,6 +171,7 @@ body {
   cursor: pointer;
   line-height: 1.5;
   min-width: 169px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn:focus,
 .btn:hover {
@@ -221,6 +223,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 8px;
+  border: 1px solid #8e8f99;
 }
 
 .dscr-icon {
@@ -285,9 +288,8 @@ body {
   padding: 0;
   margin-top: 8px;
 }
-
 .team-socials-item {
-  list-style: none;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-socials-link {
@@ -298,7 +300,7 @@ body {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  transition: background-color 250ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-socials-link:hover,
