@@ -106,12 +106,20 @@ body {
   left: 0;
   bottom: -1px;
   height: 4px;
-  color: #404bbf;
-  background-color: #404bbf;
   border-radius: 2px;
+  transform: translateY(100%);
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-contact-link {
-  font-style: normal;
+.nav-list .nav-item:first-child .link:active:after {
+  transform: translateY(0);
+}
+.nav-list .nav-item:first-child .link {
+  color: #404bbf;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-list {
   display: flex;
