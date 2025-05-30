@@ -339,7 +339,7 @@ body {
   gap: 24px;
   row-gap: 48px;
 }
-/* додала hidden */
+
 .portfolio-list-item {
   width: 100%;
   height: 100%;
@@ -384,7 +384,6 @@ body {
   transform: translateY(0%);
 }
 
-/* зміни */
 .img-box {
   position: relative;
   overflow: hidden;
@@ -461,7 +460,7 @@ body {
 .footer-socials {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  /* gap: 16px; */
   width: 208px;
   text-align: left;
 }
@@ -473,7 +472,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* margin-bottom: 16px; */
+  margin-bottom: 16px;
 }
 
 .footer-socials-list {
