@@ -107,6 +107,7 @@ body {
   bottom: -1px;
   height: 4px;
   border-radius: 2px;
+  background-color: #404bbf;
   transform: translateY(100%);
   transition-property: transform;
   transition-duration: 250ms;
